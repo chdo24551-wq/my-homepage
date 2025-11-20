@@ -3,7 +3,7 @@ export default function Image(){
         <div className="card">
             <div className="card-image">
                 <figure className="image">
-                    <img src = "./public/images/7255503868_15d29ed688_b.jpg" alt = "小皿の上には一切れのアップルパイが" />
+                    <img src = "./images/7255503868_15d29ed688_b.jpg" alt = "小皿の上には一切れのアップルパイが" />
                 </figure>
             </div>
         </div>
