@@ -7,10 +7,11 @@ export default function Header(){
                 </div>
             </div>
             <nav>
-                <button style={{color:"yellow", backgroundColor:"blue"}} onClick={()=>window.location='#1'}>アップルパイとは？</button>
-                <button style={{color:"yellow", backgroundColor:"blue"}} onClick={()=>window.location='#2'}>アップルパイの歴史</button>
-                <button style={{color:"yellow", backgroundColor:"blue"}} onClick={()=>window.location='#3'}>アップルパイ　ギャラリー?</button>
-                <button style={{color:"yellow", backgroundColor:"blue"}} onClick={()=>window.location='#4'}>アップルパイにおすすめのトッピング</button>
+                <button style={{color:"darkgreen", backgroundColor:"yellowgreen"}} onClick={()=>window.location='#1'}>アップルパイとは？</button>
+                <button style={{color:"darkgreen", backgroundColor:"yellowgreen"}} onClick={()=>window.location='#2'}>アップルパイの歴史</button>
+                <button style={{color:"darkgreen", backgroundColor:"yellowgreen"}} onClick={()=>window.location='#3'}>ギャラリー</button>
+                <button style={{color:"darkgreen", backgroundColor:"yellowgreen"}} onClick={()=>window.location='#4'}>おすすめのトッピング</button>
+                <button style={{color:"darkgreen", backgroundColor:"yellowgreen"}} onClick={()=>window.location='#5'}>アップルパイ診断</button>
             </nav>
         </header>
     );

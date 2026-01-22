@@ -51,16 +51,12 @@ p {
     letter-spacing: 1px;
     text-transform: uppercase;
     text-align: center;
-    border: 2px solid rgba(0, 0, 200, 0.6);
-    background: rgba(0, 0, 200, 0.3);
-    color: rgba(0, 0, 200, 0.6);
-    box-shadow: 1px 1px 2px rgba(0, 0, 200, 0.4);
     border-radius: 10px;
     padding: 3px 10px;
     display: inline-block;
     cursor: pointer;
 }
-
+/* 
 button {
     width: 10em;
     height: 3em;
@@ -72,7 +68,8 @@ button {
     cursor: pointer;
     top: 110px;
     left: 180px;
-}
+    display: block;
+} */
 
 body > * {
     background-color: red;
@@ -122,30 +119,41 @@ h2 {
     text-align: center;
 }
 
-p {
-    font-family: "helvetica neue", helvetica, sans-serif;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    text-align: center;
-    border: 2px solid rgba(0, 0, 200, 0.6);
-    background: rgba(0, 0, 200, 0.3);
-    color: rgba(0, 0, 200, 0.6);
-    box-shadow: 1px 1px 2px rgba(0, 0, 200, 0.4);
-    border-radius: 10px;
-    padding: 3px 10px;
-    display: inline-block;
-    cursor: pointer;
-}
-
 button {
-    width: 10em;
-    height: 3em;
+    /* display: block; */
+    /* padding: 10px 30px; */
+    width: 15em;
+    height: 5em;
     border: 0;
     background: rgba(150, 150, 150, 0.6);
+    color: blue;
+    margin: 14px;
+    text-align: center;
     text-shadow: 1px 1px 1px white;
-    border: 1px solid #999;
-    position: absolute;
+    border: 5px solid #D3E173;
+    /* position: absolute; */
     cursor: pointer;
-    top: 110px;
-    left: 180px;
+    top: 100px;
+    left: 190px;
+    margin-left: auto;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+main {
+    scroll-timeline: --main-timeline;
+}
+
+div {
+    animation: background-animation linear;
+    animation-timeline: scroll(nearest inline);
+}
+
+div::after {
+    animation: shape-animation linear;
+    animation-timeline: --main-timeline;
+}
+
+html {
+    scroll-behavior: smooth;
 }
