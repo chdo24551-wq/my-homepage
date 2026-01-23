@@ -40,26 +40,26 @@ export default function Main(){
                     
                     <div id = '3'>
                         <h2>ギャラリー</h2>
-                        <img src="src/images/49606162_be94d45e38_z.jpg" width="300" height="200"></img>
-                        <img src="src/images/Apple_pie_24.jpg" width="300" height="200"></img>
-                        <img src="src/images/images (1).jpg" width="300" height="200"></img>
-                        <img src="src/images/images (2).jpg" width="300" height="200"></img>
-                        <img src="src/images/images.jpg" width="300" height="200"></img>
-                        <img src="src/images/pirog-yabloko-kusok-vypechka.jpg" width="300" height="200"></img>
-                        <img src="src/images/apple-pie-slice.png" width="300" height="200"></img>
-                        <img src="src/images/2017-09-21-06-43-58-576x384.jpg" width="300" height="200"></img>
+                        <img src="./images/49606162_be94d45e38_z.jpg" width="300" height="200"></img>
+                        <img src="./images/Apple_pie_24.jpg" width="300" height="200"></img>
+                        <img src="./images/images (1).jpg" width="300" height="200"></img>
+                        <img src="./images/images (2).jpg" width="300" height="200"></img>
+                        <img src="./images/images.jpg" width="300" height="200"></img>
+                        <img src="./images/pirog-yabloko-kusok-vypechka.jpg" width="300" height="200"></img>
+                        <img src="./images/apple-pie-slice.png" width="300" height="200"></img>
+                        <img src="./images/2017-09-21-06-43-58-576x384.jpg" width="300" height="200"></img>
                     </div>
 
                     <div id = '4'>
                         <h2>アップルパイにおすすめのトッピング</h2>
-                        <img src="src/images/images (3).jpg" alt="カスタードクリーム" width="300" height="200"></img>
-                        <img src="src/images/Crème_Chantilly.jpg" alt="ホイップクリーム" width="300" height="200"></img>
-                        <img src="src/images/pexels-photo-6529914.jpeg" alt="メープルシロップ" width="300" height="200"></img>
-                        <img src="src/images/2518339741_6319c98148_b.jpg" alt="バニラアイス" width="300" height="200"></img>
-                        <img src="src/images/pexels-photo-5498005.jpeg" alt="シナモンパウダー" width="300" height="200"></img>
-                        <img src="src/images/jam_image.jpg" alt="ブルーベリージャム" width="300" height="200"></img>
-                        <img src="src/images/apricot-jam-with-butter-on-scone.jpg" alt="アプリコットジャム" width="300" height="200"></img>
-                        <img src="src/images/Coffee_jelly_(2014-01-23).jpg" alt="コーヒーゼリー" width="300" height="200"></img>
+                        <img src="./images/images (3).jpg" alt="カスタードクリーム" width="300" height="200"></img>
+                        <img src="./images/Crème_Chantilly.jpg" alt="ホイップクリーム" width="300" height="200"></img>
+                        <img src="./images/pexels-photo-6529914.jpeg" alt="メープルシロップ" width="300" height="200"></img>
+                        <img src="./images/2518339741_6319c98148_b.jpg" alt="バニラアイス" width="300" height="200"></img>
+                        <img src="./images/pexels-photo-5498005.jpeg" alt="シナモンパウダー" width="300" height="200"></img>
+                        <img src="./images/jam_image.jpg" alt="ブルーベリージャム" width="300" height="200"></img>
+                        <img src="./images/apricot-jam-with-butter-on-scone.jpg" alt="アプリコットジャム" width="300" height="200"></img>
+                        <img src="./images/Coffee_jelly_(2014-01-23).jpg" alt="コーヒーゼリー" width="300" height="200"></img>
                     </div>
                 </div>
             </section>
